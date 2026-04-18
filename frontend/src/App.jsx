@@ -8,7 +8,6 @@ import { Route, Routes } from 'react-router';
 const App = () => {
   return (
     <div data-theme="forest">
-      <button className='btn btn-outline'>Click me</button>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
